@@ -1,28 +1,37 @@
-# LOG_ARCHIVE: VULNERABILITY_REPORTS
+# CTF Writeups & Notes
+
+A collection of technical writeups, methodologies, and notes from Capture The Flag (CTF) challenges. 
+
+The goal of this repository is to document the exploitation process, retain the techniques learned, and maintain a clear methodology for future reference.
 
 ---
 
-## 0x00 INDEX OF INVESTIGATIONS
-
-> This archive contains technical documentation of systems successfully compromised and audited during research sessions.
+## Index of Writeups
 
 | Target | Platform | Difficulty | Primary Vector |
 | :--- | :--- | :--- | :--- |
 | [Confuser](./echoCTF/Advanced/Confuser) | echoCTF | Advanced | Arbitrary File Upload |
-| [Target_Name](#) | Platform | Level | Vector_Type |
+| [Filethingies](./echoCTF/Advanced/Filethingies) | echoCTF | Advanced | [Insert_Vector_Here] |
+| [Flanders](./echoCTF/beginner/Flanders) | echoCTF | Beginner | [Insert_Vector_Here] |
 
 ---
 
-## 0x01 DIRECTORY STRUCTURE
+## Repository Structure
 
-The repository is organized by platform and complexity to maintain a clear audit trail:
+Organized by platform and difficulty to maintain a clear record of the machines resolved.
 
 ```text
 📁 CTF-Writeups
  ├── 📁 echoCTF
- │    └── 📁 [Difficulty]
- │         └── 📁 [Machine_Name]
- │              ├── README.md      <-- The technical report
- │              └── 📁 assets      <-- Artifacts and evidence
+ │    ├── 📁 Advanced
+ │    │    ├── 📁 Confuser
+ │    │    │    ├── README.md      <-- Technical report
+ │    │    │    └── 📁 assets      <-- Images and evidence
+ │    │    └── 📁 Filethingies
+ │    │         ├── README.md
+ │    │         └── 📁 assets
+ │    └── 📁 beginner
+ │         └── 📁 Flanders
+ │              ├── README.md
+ │              └── 📁 assets
  └── 📁 HackTheBox
-
