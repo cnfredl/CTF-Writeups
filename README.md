@@ -1,37 +1,37 @@
 # CTF Writeups & Notes
 
-A collection of technical writeups, methodologies, and notes from Capture The Flag (CTF) challenges. 
+This repository contains structured writeups, methodologies, and technical notes from Capture The Flag (CTF) challenges across multiple platforms.
 
-The goal of this repository is to document the exploitation process, retain the techniques learned, and maintain a clear methodology for future reference.
+The focus is on documenting exploitation processes, reinforcing security concepts, and maintaining a repeatable methodology for future reference.
 
 ---
 
-## Index of Writeups
+## Writeup Index
 
 | Target | Platform | Difficulty | Primary Vector |
 | :--- | :--- | :--- | :--- |
 | [Confuser](./echoCTF/Advanced/Confuser) | echoCTF | Advanced | Arbitrary File Upload |
-| [Filethingies](./echoCTF/Advanced/Filethingies) | echoCTF | Advanced | [Insert_Vector_Here] |
-| [Flanders](./echoCTF/beginner/Flanders) | echoCTF | Beginner | [Insert_Vector_Here] |
+| [Filethingies](./echoCTF/Advanced/Filethingies) | echoCTF | Advanced | To be documented |
+| [Flanders](./echoCTF/Beginner/Flanders) | echoCTF | Beginner | To be documented |
 
 ---
 
 ## Repository Structure
 
-Organized by platform and difficulty to maintain a clear record of the machines resolved.
+The repository is organized by platform and difficulty to maintain a clear and scalable structure for all solved machines.
 
 ```text
-📁 CTF-Writeups
- ├── 📁 echoCTF
- │    ├── 📁 Advanced
- │    │    ├── 📁 Confuser
+CTF-Writeups
+ ├── echoCTF
+ │    ├── Advanced
+ │    │    ├── Confuser
  │    │    │    ├── README.md      <-- Technical report
- │    │    │    └── 📁 assets      <-- Images and evidence
- │    │    └── 📁 Filethingies
+ │    │    │    └── assets         <-- Evidence and screenshots
+ │    │    └── Filethingies
  │    │         ├── README.md
- │    │         └── 📁 assets
- │    └── 📁 beginner
- │         └── 📁 Flanders
+ │    │         └── assets
+ │    └── Beginner
+ │         └── Flanders
  │              ├── README.md
- │              └── 📁 assets
- └── 📁 HackTheBox
+ │              └── assets
+ └── HackTheBox
