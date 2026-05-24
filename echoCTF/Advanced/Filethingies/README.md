@@ -131,7 +131,7 @@ http://127.0.0.1:8080
 
 ---
 
-## Attack Pattern (MUY IMPORTANTE)
+## Attack Pattern 
 
 * **Type:** Insecure File Upload (Bypass de Blacklist) → RCE → Internal Port Forwarding (Pivoting) → Sensitive Data Exposure (Misconfiguration).
 * **Where it appears:** - Entornos corporativos o CTFs donde se despliegan aplicaciones internas de administración o utilidades para uso exclusivo del _localhost_.
